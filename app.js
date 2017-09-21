@@ -6,4 +6,8 @@ var port = process.env.PORT || 3000;
 
 app.get('/',function(req, res) {
   req.setEncoding('Welcome to my API');
-}
+};
+
+app.listen(port, funciton() {
+  console.log('Running on PORT: ' + port);
+});
